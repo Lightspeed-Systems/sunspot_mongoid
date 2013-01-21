@@ -44,21 +44,21 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<mongoid>, [">= 0"])
-      s.add_runtime_dependency(%q<sunspot>, ["~>2.0.0.pre"])
-      s.add_runtime_dependency(%q<sunspot_rails>, ["~>2.0.0.pre"])
+      s.add_runtime_dependency(%q<sunspot>, ["~>1.3.3"])
+      s.add_runtime_dependency(%q<sunspot_rails>, ["~>1.3.3"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<rr>, [">= 0"])
     else
       s.add_dependency(%q<mongoid>, [">= 0"])
-      s.add_dependency(%q<sunspot>, ["~>2.0.0.pre"])
-      s.add_dependency(%q<sunspot_rails>, ["~>2.0.0.pre"])
+      s.add_dependency(%q<sunspot>, ["~>1.3.3"])
+      s.add_dependency(%q<sunspot_rails>, ["~>1.3.3"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<rr>, [">= 0"])
     end
   else
     s.add_dependency(%q<mongoid>, [">= 0"])
-    s.add_dependency(%q<sunspot>, ["~>2.0.0.pre"])
-    s.add_dependency(%q<sunspot_rails>, ["~>2.0.0.pre"])
+    s.add_dependency(%q<sunspot>, ["~>1.3.3"])
+    s.add_dependency(%q<sunspot_rails>, ["~>1.3.3"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<rr>, [">= 0"])
   end
